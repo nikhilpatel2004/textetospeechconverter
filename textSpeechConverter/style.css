@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.hero {
+    width: 90%;
+    max-width: 600px;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.highlight {
+    color: #FC466B;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    font-size: 12px; /* Increased text size */
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    resize: none;
+    margin-top: 20px;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+select {
+    flex: 1;
+    background: #403d84;
+    color: white;
+    height: 40px;
+    padding: 0 15px;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: #FC466B;
+    color: white;
+    font-size: 12px;
+    padding: 12px 24px;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button i {
+    font-size: 22px;
+}
+
+button:hover {
+    background: #3F5EFB;
+    transform: scale(1.05);
+}
